@@ -7,7 +7,7 @@ mv ./terraform /usr/bin/
 ASDF_PATH=$HOME/.asdf
 TERRAFORM_VERSIONS="1.2.0 1.2.1 1.2.2 1.2.3"
 git clone https://github.com/asdf-vm/asdf.git $ASDF_PATH --branch v0.8.0
-echo \'. $ASDF_PATH/asdf.sh\' >> ~/.bashrc
+echo '. $ASDF_PATH/asdf.sh' >> ~/.bashrc
 echo PATH=\$PATH:\$HOME/.asdf/shims:\$HOME/.asdf/bin >> /root/.bashrc
 
 asdf --version
